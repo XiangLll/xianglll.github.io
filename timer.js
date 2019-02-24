@@ -12,3 +12,15 @@ var downloadTimer = setInterval(function(){
     window.location='final.html'
   }
 }, 1000);
+
+//this is based on code snippet found at:http://jsfiddle.net/sELBM/426/
+
+.stopSign {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.stopSign:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
