@@ -1,6 +1,6 @@
 body{
     display: block;
-    color: #FFEC47; /*changing bg color*/
+    background-color: #FFEC47; /*changing bg color*/
     margin: 0 auto;
 /* changing the way it is been aligned https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689*/
 }
